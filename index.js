@@ -67,6 +67,7 @@ function formatOpts(opts) {
   if (opts.overwrite == null) opts.overwrite = true;
   if (opts.httpOnly == null) opts.httpOnly = true;
   if (opts.signed == null) opts.signed = true;
+  if (opts.keySource == null) opts.keySource = false;
 
   debug('session options %j', opts);
 
